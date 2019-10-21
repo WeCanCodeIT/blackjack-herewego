@@ -2,6 +2,9 @@
 
 const buttons = document.querySelectorAll(".button");
 
+const DeckGenerator = require('playing-card-deck-generator')
+
+
 buttons.forEach(button => {
     button.addEventListener("click", () => {
 
