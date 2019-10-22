@@ -1,4 +1,8 @@
-// console.log("Hello World!");
+
+const myObj = {dealer}
+myObj.name = "Robby"
+const myObj = {user}
+myObj.name = "userInput"
 
 const buttons = document.querySelectorAll(".button");
 
