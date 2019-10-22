@@ -1,4 +1,8 @@
-// console.log("Hello World!");
+
+var Table = {
+      dealer: [],
+      dealerCount = 1,
+}
 
 const buttons = document.querySelectorAll(".button");
 
