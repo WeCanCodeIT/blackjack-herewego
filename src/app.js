@@ -1,8 +1,8 @@
 
-const myObj = {dealer}
-myObj.name = "Robby"
-const myObj = {user}
-myObj.name = "userInput"
+var Table = {
+      dealer: [],
+      dealerCount = 1,
+}
 
 const buttons = document.querySelectorAll(".button");
 
