@@ -8,16 +8,6 @@
     font: 20px/1 sans-serif;
   }
   
-  .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
-    max-width: 30rem;
-    width: 90%;
-  }
-
-  
-  
   div span {
     border: 3px dashed white;
     height: 120px;
@@ -26,7 +16,15 @@
     text-align: center;
     line-height: 120px;
   }
-  
+
+  .container {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    margin: 0 auto;
+    max-width: 40rem;
+    width: 90%;
+  }
+
   .hit {
     background-color: transparent;
     border: 2px solid black;
@@ -55,6 +53,7 @@
     background-color: darkgreen;
     display: flex;
     align-items: top;
+    justify-content: space-between;
     height: 1rem;
   }
 
@@ -66,12 +65,19 @@
 
   }
 
+  .user-bet {
+    padding-top: .5rem;
+  }
+
   .user-chips {
     background-color: darkgreen;
     display: flex;
     align-items: top;
     height: 1rem;
-    
+  }
+
+  .user-chips__name {
+    padding-top: 2rem;
   }
 
   .value-container {
