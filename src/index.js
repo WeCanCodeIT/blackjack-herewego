@@ -13,7 +13,7 @@ Dom.renderCards(userHand.getCards(), document.querySelector(".user"));
 
 const hitButton = document.querySelector(".hit");
 
-hitButton.addEventListener("click", () =>{
+hitButton.addEventListener("mousedown", () =>{
   singleDeckGame.hitUser();
   document.querySelector(".user").innerHTML = "";
   Dom.renderCards(singleDeckGame.getUserHand().getCards(), 
