@@ -1,6 +1,7 @@
 module.exports = {
     generateCard(card) {
-        const playingCard = document.createElement("section");
+        const playingCard =
+         document.createElement("section");
         playingCard.classList.add("playing-card");
       
         const valueContainer = document.createElement("section");
