@@ -7,24 +7,30 @@
   html {
     font: 20px/1 sans-serif;
   }
-  
-  div span {
-    border: 3px dashed white;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 120px;
+
+  nav {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border: 2px solid red;
+    max-height: 24.761rem;
   }
+
 
   .container {
     display: grid;
     grid-template-columns: 85% 15%;
+    grid-template-rows: 10% 80% 10%;
     margin: 0 auto;
-    max-width: 40rem;
+    max-width: 35rem;
     width: 90%;
   }
 
+  .header {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  
   .hit {
     background-color: transparent;
     border: 2px solid black;
@@ -46,7 +52,14 @@
     display: flex;
     justify-content: space-between;
     align-items: top;
-    height: 30rem;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    min-height: 24.761rem;
+  }
+
+  .title {
+    grid-column-start: 1;
+    grid-row-start: 1;
   }
 
   .name {
@@ -54,7 +67,8 @@
     display: flex;
     align-items: top;
     justify-content: space-between;
-    height: 1rem;
+    grid-column-start: 1;
+    grid-row-start: 2;
   }
 
   .name-dealer {
@@ -77,7 +91,8 @@
   }
 
   .user-chips__name {
-    padding-top: 2rem;
+    padding-top: .5rem;
+    
   }
 
   .value-container {
@@ -92,3 +107,5 @@
   .user-chips div:hover {
     transform: rotate(360deg);
   }
+
+  
