@@ -25,10 +25,12 @@
     width: 90%;
   }
 
+
   .header {
     grid-column-start: 1;
     grid-row-start: 1;
   }
+
 
   
   .hit {
@@ -46,6 +48,12 @@
     padding: 1rem;
     width: 6rem;
   }
+
+  button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+  }
   
   .table {
     background-color: darkgreen;
@@ -61,7 +69,6 @@
     grid-column-start: 1;
     grid-row-start: 1;
   }
-
   .name {
     background-color: darkgreen;
     display: flex;
@@ -104,8 +111,3 @@
     width: 100%;
   }
 
-  .user-chips div:hover {
-    transform: rotate(360deg);
-  }
-
-  
