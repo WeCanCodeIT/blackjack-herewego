@@ -31,8 +31,7 @@ promptButton.onclick = function() {
 const doubleButton = document.querySelector(".double");
 
 doubleButton.addEventListener("click", () =>{
-  singleDeckGame.doubleUser();
-  document.querySelector(".result").innerHTML = "";
-  
-
+  if (event.target.classList.contains(".result")) {
+    console.log(".result" * 2 )
+  }
 });
